@@ -1,0 +1,32 @@
+# === API Keys & Secrets ===
+.env
+api.env
+*.env
+
+# === Virtual Environment ===
+venv/
+.venv/
+env/
+bin/
+lib/
+include/
+
+# === Python Cache & Compiled Files ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# === IDE & Settings ===
+.vscode/
+.idea/
+.streamlit/
+*.swp
+
+# === Project Specific Data ===
+# Ignore the scraped data to keep the repo light
+products.json
+
+# === OS Generated ===
+.DS_Store
+Thumbs.db

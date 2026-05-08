@@ -1,0 +1,7 @@
+venv
+__pycache__
+*.pyc
+chromedriver-win64
+scraper.py
+api.env
+.git
